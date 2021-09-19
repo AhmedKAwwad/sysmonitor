@@ -46,3 +46,4 @@ print ("\n------- Print Device As Table ------------")
 sorted_tabulate=sorted(devices,key=itemgetter("vendor","os","version"))
 print(tabulate(sorted_tabulate,headers="keys"))
 
+
