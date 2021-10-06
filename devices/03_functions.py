@@ -38,7 +38,7 @@ def create_dev(num_devices,num_subnets):
             print(f"{key:>15s}:{value}")
          # Add each device to list
          devices.append(device)
-   return devices,"extra"
+   return devices
 
 
 if __name__ == '__main__':
